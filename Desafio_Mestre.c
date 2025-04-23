@@ -99,25 +99,18 @@ int main() {
     // Comparação dos atributos
     printf("\nComparação de Cartas:\n");
 
-    // Comparação de População
     printf("População: Carta 1 venceu (%d)\n", populacao1 > populacao2 ? 1 : 0);
 
-    // Comparação de Área
     printf("Área: Carta 1 venceu (%d)\n", area1 > area2 ? 1 : 0);
 
-    // Comparação de PIB
     printf("PIB: Carta 1 venceu (%d)\n", PIB1 > PIB2 ? 1 : 0);
 
-    // Comparação de Pontos Turísticos
     printf("Pontos Turísticos: Carta 1 venceu (%d)\n", pontosTuristicos1 > pontosTuristicos2 ? 1 : 0);
 
-    // Comparação de Densidade Populacional (quanto menor, melhor)
     printf("Densidade Populacional: Carta 2 venceu (%d)\n", densidadePopulacional1 < densidadePopulacional2 ? 1 : 0);
 
-    // Comparação de PIB per Capita
     printf("PIB per Capita: Carta 1 venceu (%d)\n", PIBperCapita1 > PIBperCapita2 ? 1 : 0);
 
-    // Comparação de Super Poder
     printf("Super Poder: Carta 1 venceu (%d)\n", superPoder1 > superPoder2 ? 1 : 0);
 
     return 0;
